@@ -1,0 +1,12 @@
+.cards {
+    padding: 2rem;
+    /* margin-left: 2rem; */
+}
+
+/* Responsive styling for screens 360px wide or less */
+@media (max-width: 360px) {
+    .cards {
+        padding: 0rem;
+        margin-left: -2rem;
+    }
+}
